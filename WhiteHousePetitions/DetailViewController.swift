@@ -33,7 +33,7 @@ class DetailViewController: UIViewController {
             var html = "<html>"
             html += "<head>"
             html += "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
-            html += "<sytle> body { font-size: 150%; } </style>"
+            html += "<style> body { font-size: 150%; } </style>"
             html += "</head>"
             html += "<body>"
             html += body
