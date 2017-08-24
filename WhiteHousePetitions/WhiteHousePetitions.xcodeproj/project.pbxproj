@@ -13,6 +13,7 @@
 		59180BDD1F4E83F0001FC129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59180BDC1F4E83F0001FC129 /* Assets.xcassets */; };
 		59180BE01F4E83F0001FC129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59180BDE1F4E83F0001FC129 /* LaunchScreen.storyboard */; };
 		59180BEA1F4F6163001FC129 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59180BE91F4F6163001FC129 /* SwiftyJSON.swift */; };
+		59180BEC1F4F74B2001FC129 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59180BEB1F4F74B2001FC129 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59180BDF1F4E83F0001FC129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59180BE11F4E83F0001FC129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59180BE91F4F6163001FC129 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		59180BEB1F4F74B2001FC129 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		59180BE81F4E840C001FC129 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				59180BEB1F4F74B2001FC129 /* DetailViewController.swift */,
 				59180BE91F4F6163001FC129 /* SwiftyJSON.swift */,
 				59180BD71F4E83F0001FC129 /* ViewController.swift */,
 				59180BD91F4E83F0001FC129 /* Main.storyboard */,
@@ -159,6 +162,7 @@
 				59180BEA1F4F6163001FC129 /* SwiftyJSON.swift in Sources */,
 				59180BD81F4E83F0001FC129 /* ViewController.swift in Sources */,
 				59180BD61F4E83F0001FC129 /* AppDelegate.swift in Sources */,
+				59180BEC1F4F74B2001FC129 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
